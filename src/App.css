@@ -70,12 +70,19 @@
 .comicReader__InfoContainer {
   display: flex;
   flex-direction: column;
+  padding-bottom: 10px;
 }
 
-.comicReader__InfoContainer > div, .comicReader__Pagination {
+.comicReader__InfoContainer > div, .comicReader__Pagination, .comicReader__gotoComic {
   padding-top: 10px;
 }
 
 .comicReader__Pagination button {
   margin: 5px;
+}
+
+.comicReader__gotoComic label, .comicReader__gotoComic input {
+  width: 40px;
+  margin-right: 5px;
+  vertical-align: middle;
 }

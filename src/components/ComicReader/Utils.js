@@ -20,7 +20,10 @@ const comicReaderUtils = {
         return false;
       }
       return true;
+    } else if (value && typeof value === 'string') {
+      return value.trim().length === 0;
     }
+    return true;
   }
 };
 
